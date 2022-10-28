@@ -1,0 +1,49 @@
+body {
+    background-color: cornflowerblue;
+    color: aliceblue;
+    height: 100vh
+};
+
+.reto {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border: 1px solid;
+}
+
+.reto p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.decoracion{
+    text-align: center;
+    font-size: 700%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+@media screen and (min-width: 830px) {
+
+    .reto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.tex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 500%;
+    margin: 0%;
+}
